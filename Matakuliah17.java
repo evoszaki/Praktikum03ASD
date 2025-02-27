@@ -25,4 +25,12 @@ public class Matakuliah17 {
         this.jumlahjam = Integer.parseInt(input17.nextLine());
         System.out.println("----------------------------------------");
     }
+
+    public void cetakInfo() {
+        System.out.println("Kode          : " + kode);
+        System.out.println("Nama          : " + nama);
+        System.out.println("SKS           : " + sks);
+        System.out.println("Jumlah Jam    : " + jumlahjam);
+        System.out.println("----------------------------------------");
+    }
 }
