@@ -8,19 +8,8 @@ public class MatakuliahDemo17 {
         
         for(int i = 0; i < 3; i++) {
             System.out.println("Masukkan Data Matakuliah ke-" + (i + 1));
-            System.out.print("Kode          : ");
-            kode = input17.nextLine();
-            System.out.print("Nama          : ");
-            nama = input17.nextLine();
-            System.out.print("SKS           : ");
-            dummy = input17.nextLine();
-            sks = Integer.parseInt(dummy);
-            System.out.print("Jumlah Jam    : ");
-            dummy = input17.nextLine();
-            jumlahjam = Integer.parseInt(dummy);
-            System.out.println("----------------------------------------");
-
-            arrayofMatakuliah17[i] = new Matakuliah17(kode, nama, sks, jumlahjam);
+            arrayofMatakuliah17[i] = new Matakuliah17("", "", 0, 0);
+            arrayofMatakuliah17[i].tambahData();
         }
         for(int i = 0 ; i < 3; i++) {
             System.out.println("Data Matakuliah ke-" + (i+1) + ": ");

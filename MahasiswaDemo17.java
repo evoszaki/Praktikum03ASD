@@ -8,7 +8,7 @@ public class MahasiswaDemo17 {
             arrayofMahasiswa17 [i] = new Mahasiswa17();
 
             System.out.println("Masukkan Data Mahasiswa ke-" + (i + 1));
-            System.out.print("Nim    : ");
+            System.out.print("Kode   : ");
             arrayofMahasiswa17[i].nim = input17.nextLine();
             System.out.print("Nama   : ");
             arrayofMahasiswa17[i].nama = input17.nextLine();
